@@ -1,4 +1,6 @@
+check50
+submit50
+pytest
 emoji
 pyfiglet
 requests
-

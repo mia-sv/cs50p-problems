@@ -1,5 +1,6 @@
 vowels = ["a", "e", "i", "o", "u"]
 
+
 def main():
     name = input("Input: ")
     print(f"Output: {shorten(name)}")
@@ -13,6 +14,5 @@ def shorten(word):
     return new_word
 
 
-
 if __name__ == "__main__":
-    main()   
+    main()

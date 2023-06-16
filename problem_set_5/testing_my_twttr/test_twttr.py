@@ -10,10 +10,12 @@ def test_vowels():
     assert shorten("maria") == "mr"
     assert shorten("FILIPE") == "FLP"
 
+
 def test_consonants():
     assert shorten("bcdfgh") == "bcdfgh"
     assert shorten("BCDFGH") == "BCDFGH"
     assert shorten("BcDfGh") == "BcDfGh"
+
 
 def test_length():
     assert len(shorten("maria")) == 2
@@ -22,6 +24,7 @@ def test_length():
 
 def test_numbers():
     assert shorten("123") == "123"
+
 
 def test_punctuation():
     assert shorten("!?.") == "!?."
