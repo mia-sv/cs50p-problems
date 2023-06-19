@@ -5,3 +5,4 @@ emoji
 pyfiglet
 requests
 tabulate
+Pillow
