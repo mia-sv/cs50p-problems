@@ -4,3 +4,4 @@ pytest
 emoji
 pyfiglet
 requests
+tabulate
